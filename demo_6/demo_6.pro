@@ -27,11 +27,13 @@ CONFIG += c++11
 SOURCES += \
         main.cpp \
         itemwidget.cpp \
-    findedit.cpp
+    findedit.cpp \
+    tempwidget.cpp
 
 HEADERS += \
         itemwidget.h \
-    findedit.h
+    findedit.h \
+    tempwidget.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

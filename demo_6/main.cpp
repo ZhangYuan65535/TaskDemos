@@ -1,5 +1,6 @@
 #include "itemwidget.h"
 #include "findedit.h"
+#include "tempwidget.h"
 #include <QApplication>
 
 int main(int argc, char *argv[])
@@ -10,6 +11,11 @@ int main(int argc, char *argv[])
 
     FindEdit f;
     f.show();
+
+    TempWidget t;
+    t.show();
+
+
 
     return a.exec();
 }
