@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/microsoft-edge.png</file>
+        <file>icons/sunlogin_client.png</file>
+        <file>icons/typora.png</file>
+    </qresource>
+</RCC>
