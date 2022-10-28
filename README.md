@@ -28,11 +28,36 @@
 
 目标：同时使用 GSettings 与 DConfig 进行配置。
 
-详情：整体实现为一个 “防疫程序”，通过 GSettings 读取居民信息。程序中，居民的信息存储、展示用到了 Qt 的 MVD 模型，并加入
+详情：整体实现为一个 “防疫程序”，通过 GSettings 读取居民信息。程序中，居民的信息存储、展示用到了 Qt 的 MVD 模型，并加入自绘控件。
 
+### Demo_6 (working)
 
+目标：至少实现一种自绘控件。
 
+详情：目前已经实现了温度计功能，如下图所示。还打算实现一个搜索框控件，目前还在开发中。
 
+### Demo_7
+
+目标：使用 view/mode/delegate 模型。
+
+详情：整体实现为一个极简启动器，所有应用程序的数据存放在 mode 中，通过 view 来显示所有 item，item 的渲染由 delegate 负责。
+
+### Demo_8
+
+目标：使用多线程
+
+详情：编写一个测试程序，其中用到了 Qt 的四种多线程方法，分别是
+
++ 继承 QThread
++ 使用 moveToThread
++ QRunnable 结合线程池
++ 使用 QtConcurrent
+
+### Demo_total
+
+目标：将所有需要的功能聚合在一个项目中
+
+详情：整体实现为 C/S 架构，Client 负责接收用户输入的数据，Server 负责处理 Client 传来的数据，C/S 之间的通信借助 QDBus。
 
 
 
