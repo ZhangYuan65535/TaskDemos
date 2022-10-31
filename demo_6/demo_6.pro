@@ -27,12 +27,10 @@ CONFIG += c++11
 SOURCES += \
         main.cpp \
         itemwidget.cpp \
-    findedit.cpp \
     tempwidget.cpp
 
 HEADERS += \
         itemwidget.h \
-    findedit.h \
     tempwidget.h
 
 # Default rules for deployment.
@@ -40,5 +38,4 @@ qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
-RESOURCES += \
-    images.qrc
+RESOURCES +=

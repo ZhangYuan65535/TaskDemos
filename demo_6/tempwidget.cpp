@@ -3,7 +3,8 @@
 #include <QtWidgets>
 #include <QDebug>
 
-const double padding = 40;
+// 下面设置的全局常量用于控制温度计大小
+const double padding = 30;
 const double tempWidth = padding * 4;
 const double tempHeight = padding * 8;
 const double radius = padding/2;
@@ -11,16 +12,18 @@ const double radius = padding/2;
 
 TempWidget::TempWidget(QWidget *parent)
     : QWidget(parent),
-      m_curTemp(37.1),
+      m_curTemp(37.2),
       greenBrush(new QBrush(Qt::green)),
       redBrush(new QBrush(Qt::red))
 {
     this->setGeometry(0,0,tempWidth + 200,tempHeight);
 
+    // 添加slider控件，便于观察温度计控件的变色效果
     QSlider *slider = new QSlider(this);
     slider->setGeometry(tempWidth+100,padding,40,200);
     slider->setMaximum(450);
     slider->setMinimum(350);
+    slider->setValue(372);
     connect(slider,SIGNAL(valueChanged(int)),this,SLOT(tempChanged(int)));
 }
 
@@ -29,6 +32,9 @@ TempWidget::~TempWidget()
 
 }
 
+/**
+ * @brief TempWidget::isHealth 判断当前健康状态
+ */
 bool TempWidget::isHealth()
 {
     if(m_curTemp < 37.2)
@@ -36,6 +42,9 @@ bool TempWidget::isHealth()
     return false;
 }
 
+/**
+ * @brief TempWidget::isDie 判断温度是否超过上限值
+ */
 bool TempWidget::isDie()
 {
     if(m_curTemp > 43)
@@ -107,6 +116,10 @@ void TempWidget::paintEvent(QPaintEvent *event)
         painter.drawRect(tempWidth/2-radius/2,5.5*padding-h,radius,6.5*padding-(5.5*padding-h));
 }
 
+/**
+ * @brief TempWidget::tempChanged 槽函数，关联 slider与温度计控件
+ * @param temp 当前温度
+ */
 void TempWidget::tempChanged(int temp)
 {
     this->m_curTemp = temp/10.0;

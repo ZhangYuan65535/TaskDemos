@@ -3,6 +3,10 @@
 
 #include <QWidget>
 
+
+/**
+ * @brief The ItemWidget class 窗口类，用于放置自绘控件
+ */
 class ItemWidget : public QWidget
 {
     Q_OBJECT
