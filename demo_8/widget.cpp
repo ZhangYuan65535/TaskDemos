@@ -29,7 +29,7 @@ void Widget::on_btn1_clicked()
 {
     QThreadPool pool;
     pool.setMaxThreadCount(8);
-    for(int i = 1; i < 10000; i++){
+    for(int i = 1; i < 100; i++){
         PrimeTask *task = new PrimeTask(i);
         connect(task,SIGNAL(isPrime(int)),this,SLOT(addPrimeToEdit(int)));
         pool.start(task);
@@ -52,7 +52,7 @@ void Widget::addPrimeToEdit(int num)
  */
 void Widget::on_btn2_clicked()
 {
-    WorkThread *workThread = new WorkThread(1,1000);
+    WorkThread *workThread = new WorkThread(1,100);
     connect(workThread,SIGNAL(resultReady(QList<int>)),this,SLOT(addPrimeToEdit2(QList<int>)));
     workThread->start();
 }
@@ -82,7 +82,7 @@ void Widget::on_btn3_clicked()
     connect(worker,SIGNAL(resultReady(QList<int>)),this,SLOT(addPrimeToEdit2(QList<int>)));
 
     worker->doWork();
-    worker->doWork2();
+//    worker->doWork2();
 }
 
 static QList<int> getList()

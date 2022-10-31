@@ -4,6 +4,9 @@
 #include <QObject>
 #include <QRunnable>
 
+/**
+ * @brief The PrimeTask class 任务类，用于实现线程池
+ */
 class PrimeTask : public QObject,public QRunnable
 {
     Q_OBJECT

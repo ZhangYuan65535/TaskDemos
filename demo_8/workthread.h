@@ -4,6 +4,9 @@
 #include <QObject>
 #include <QThread>
 
+/**
+ * @brief The WorkThread class 任务类，用于测试 QThread 多线程写法
+ */
 class WorkThread: public QThread
 {
     Q_OBJECT

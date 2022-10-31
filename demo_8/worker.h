@@ -3,6 +3,10 @@
 
 #include <QObject>
 
+/**
+ * @brief The Worker class 任务类，用于测试第一种多线程的写法
+ * 为方便起见，直接在头文件中实现函数定义
+ */
 class Worker : public QObject
 {
     Q_OBJECT
@@ -11,7 +15,7 @@ public:
 public slots:
     void doWork(){
         list.clear();
-        for(int num = 100; num <= 200; num++){
+        for(int num = 1; num <= 100; num++){
             if(num == 0 || num == 1 || num == 2){
                 continue;
             }else{
