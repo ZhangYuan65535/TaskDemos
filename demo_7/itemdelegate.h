@@ -3,6 +3,9 @@
 
 #include <QStyledItemDelegate>
 
+/**
+ * @brief The ItemDelegate class 自定义委托类，实现自定义渲染
+ */
 class ItemDelegate : public QStyledItemDelegate
 {
 public:

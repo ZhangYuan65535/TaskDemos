@@ -8,6 +8,7 @@
 #include "itemdelegate.h"
 #include "addappdialog.h"
 
+// 由于目前还没搞明白 dde-launcher 是从哪获取的应用相关的数据，所以这里先写死，日后再拓展
 const QStringList icons = {
     ":/icons/microsoft-edge.png",
     ":/icons/sunlogin_client.png",
@@ -44,6 +45,9 @@ Widget::~Widget()
 
 }
 
+/**
+ * @brief Widget::load 加载窗口内的所有控件
+ */
 void Widget::load()
 {
     m_model = new QStandardItemModel();
@@ -66,6 +70,11 @@ void Widget::load()
     connect(listview,SIGNAL(clicked(QModelIndex)),this,SLOT(deal_clicked(QModelIndex)));
 }
 
+/**
+ * @brief Widget::deal_clicked 打开应用
+ * 当点击 app item 时，该槽函数负责打开新应用
+ * @param index 被点击的 item 的索引
+ */
 void Widget::deal_clicked(QModelIndex index)
 {
     QVariant var = index.data(Qt::UserRole + 1);
@@ -78,6 +87,9 @@ void Widget::deal_clicked(QModelIndex index)
     process->startDetached(itemdata.desktopPath);
 }
 
+/**
+ * @brief Widget::deal_addNewApp 槽函数，添加新应用
+ */
 void Widget::deal_addNewApp()
 {
     AddAppDialog dialog(this);
