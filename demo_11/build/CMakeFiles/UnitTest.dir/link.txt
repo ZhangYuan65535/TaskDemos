@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -Wall   CMakeFiles/UnitTest.dir/src/MyString.cpp.o CMakeFiles/UnitTest.dir/src/kmp.cpp.o CMakeFiles/UnitTest.dir/main.cpp.o  -o UnitTest /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.11.3 /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.11.3 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.11.3 
