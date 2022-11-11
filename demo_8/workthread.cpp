@@ -3,7 +3,6 @@
 
 void WorkThread::run()
 {
-
     for(int num = m_start; num <= m_end; num++){
         if(num == 0 || num == 1 || num == 2){
             continue;

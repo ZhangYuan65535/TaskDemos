@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -fPIC -std=gnu++14
 
 CXX_DEFINES = -DQT_CORE_LIB -DQT_DBUS_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB
 
-CXX_INCLUDES = -I/home/yuan/Desktop/MyDemo/demo_2/build/Calculator_autogen/include -I/usr/include/x86_64-linux-gnu/qt5/QtGui/5.11.3 -I/usr/include/x86_64-linux-gnu/qt5/QtGui/5.11.3/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore/5.11.3 -I/usr/include/x86_64-linux-gnu/qt5/QtCore/5.11.3/QtCore -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtDBus 
+CXX_INCLUDES = -I/home/yuan/Dev/TaskDemos/demo_2/build/Calculator_autogen/include -I/usr/include/x86_64-linux-gnu/qt5/QtGui/5.11.3 -I/usr/include/x86_64-linux-gnu/qt5/QtGui/5.11.3/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore/5.11.3 -I/usr/include/x86_64-linux-gnu/qt5/QtCore/5.11.3/QtCore -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtDBus 
 

@@ -4,7 +4,7 @@
 #include <QObject>
 
 /**
- * @brief The Worker class 任务类，用于测试第一种多线程的写法
+ * @brief The Worker class 任务类，用于测试 moveToThread 多线程的写法
  * 为方便起见，直接在头文件中实现函数定义
  */
 class Worker : public QObject

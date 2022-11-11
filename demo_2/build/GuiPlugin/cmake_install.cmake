@@ -1,4 +1,4 @@
-# Install script for directory: /home/yuan/Desktop/MyDemo/demo_2/GuiPlugin
+# Install script for directory: /home/yuan/Dev/TaskDemos/demo_2/GuiPlugin
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

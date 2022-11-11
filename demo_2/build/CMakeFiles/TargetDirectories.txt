@@ -1,7 +1,10 @@
-/home/yuan/Desktop/MyDemo/demo_2/build/CMakeFiles/rebuild_cache.dir
-/home/yuan/Desktop/MyDemo/demo_2/build/CMakeFiles/Calculator.dir
-/home/yuan/Desktop/MyDemo/demo_2/build/CMakeFiles/edit_cache.dir
-/home/yuan/Desktop/MyDemo/demo_2/build/CMakeFiles/Calculator_autogen.dir
-/home/yuan/Desktop/MyDemo/demo_2/build/GuiPlugin/CMakeFiles/rebuild_cache.dir
-/home/yuan/Desktop/MyDemo/demo_2/build/GuiPlugin/CMakeFiles/Guicalc.dir
-/home/yuan/Desktop/MyDemo/demo_2/build/GuiPlugin/CMakeFiles/edit_cache.dir
+/home/yuan/Dev/TaskDemos/demo_2/build/CMakeFiles/rebuild_cache.dir
+/home/yuan/Dev/TaskDemos/demo_2/build/CMakeFiles/Calculator.dir
+/home/yuan/Dev/TaskDemos/demo_2/build/CMakeFiles/edit_cache.dir
+/home/yuan/Dev/TaskDemos/demo_2/build/CMakeFiles/Calculator_autogen.dir
+/home/yuan/Dev/TaskDemos/demo_2/build/GuiPlugin/CMakeFiles/rebuild_cache.dir
+/home/yuan/Dev/TaskDemos/demo_2/build/GuiPlugin/CMakeFiles/Guicalc.dir
+/home/yuan/Dev/TaskDemos/demo_2/build/GuiPlugin/CMakeFiles/edit_cache.dir
+/home/yuan/Dev/TaskDemos/demo_2/build/GuiPlugin/CMakeFiles/Guicalc_autogen.dir
+/home/yuan/Dev/TaskDemos/demo_2/build/tests/CMakeFiles/rebuild_cache.dir
+/home/yuan/Dev/TaskDemos/demo_2/build/tests/CMakeFiles/edit_cache.dir

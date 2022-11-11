@@ -11,6 +11,8 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_CXX_FLAGS "-g")
 set(BIN_NAME "Calculator")
 
+add_subdirectory(tests)
+
 find_package(PkgConfig)
 find_package(Qt5Widgets)
 find_package(Qt5DBus)

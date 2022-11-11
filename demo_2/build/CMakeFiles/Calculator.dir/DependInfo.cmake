@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/yuan/Desktop/MyDemo/demo_2/build/Calculator_autogen/mocs_compilation.cpp" "/home/yuan/Desktop/MyDemo/demo_2/build/CMakeFiles/Calculator.dir/Calculator_autogen/mocs_compilation.cpp.o"
-  "/home/yuan/Desktop/MyDemo/demo_2/src/cmdcalc.cpp" "/home/yuan/Desktop/MyDemo/demo_2/build/CMakeFiles/Calculator.dir/src/cmdcalc.cpp.o"
-  "/home/yuan/Desktop/MyDemo/demo_2/src/main.cpp" "/home/yuan/Desktop/MyDemo/demo_2/build/CMakeFiles/Calculator.dir/src/main.cpp.o"
+  "/home/yuan/Dev/TaskDemos/demo_2/build/Calculator_autogen/mocs_compilation.cpp" "/home/yuan/Dev/TaskDemos/demo_2/build/CMakeFiles/Calculator.dir/Calculator_autogen/mocs_compilation.cpp.o"
+  "/home/yuan/Dev/TaskDemos/demo_2/src/cmdcalc.cpp" "/home/yuan/Dev/TaskDemos/demo_2/build/CMakeFiles/Calculator.dir/src/cmdcalc.cpp.o"
+  "/home/yuan/Dev/TaskDemos/demo_2/src/main.cpp" "/home/yuan/Dev/TaskDemos/demo_2/build/CMakeFiles/Calculator.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

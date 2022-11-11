@@ -6,21 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/yuan/Desktop/MyDemo/demo_2/build/Calculator_autogen/UVLADIE3JM/moc_cmdcalc.cpp
+/home/yuan/Dev/TaskDemos/demo_2/build/Calculator_autogen/UVLADIE3JM/moc_cmdcalc.cpp
 ../../../src/cmdcalc.h
-/home/yuan/Desktop/MyDemo/demo_2/src/cmdcalc.h
+/home/yuan/Dev/TaskDemos/demo_2/src/cmdcalc.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/yuan/Desktop/MyDemo/demo_2/build/Calculator_autogen/mocs_compilation.cpp
+/home/yuan/Dev/TaskDemos/demo_2/build/Calculator_autogen/mocs_compilation.cpp
 UVLADIE3JM/moc_cmdcalc.cpp
-/home/yuan/Desktop/MyDemo/demo_2/build/Calculator_autogen/UVLADIE3JM/moc_cmdcalc.cpp
+/home/yuan/Dev/TaskDemos/demo_2/build/Calculator_autogen/UVLADIE3JM/moc_cmdcalc.cpp
 
-/home/yuan/Desktop/MyDemo/demo_2/src/cmdcalc.cpp
+/home/yuan/Dev/TaskDemos/demo_2/src/cmdcalc.cpp
 cmdcalc.h
-/home/yuan/Desktop/MyDemo/demo_2/src/cmdcalc.h
+/home/yuan/Dev/TaskDemos/demo_2/src/cmdcalc.h
 string
 -
 iostream
@@ -40,9 +40,9 @@ QDBusError
 QApplication
 -
 
-/home/yuan/Desktop/MyDemo/demo_2/src/cmdcalc.h
+/home/yuan/Dev/TaskDemos/demo_2/src/cmdcalc.h
 guicalcinterface.h
-/home/yuan/Desktop/MyDemo/demo_2/src/guicalcinterface.h
+/home/yuan/Dev/TaskDemos/demo_2/src/guicalcinterface.h
 QObject
 -
 QDebug
@@ -58,13 +58,13 @@ QObject
 QApplication
 -
 
-/home/yuan/Desktop/MyDemo/demo_2/src/guicalcinterface.h
+/home/yuan/Dev/TaskDemos/demo_2/src/guicalcinterface.h
 QtPlugin
 -
 
-/home/yuan/Desktop/MyDemo/demo_2/src/main.cpp
+/home/yuan/Dev/TaskDemos/demo_2/src/main.cpp
 cmdcalc.h
-/home/yuan/Desktop/MyDemo/demo_2/src/cmdcalc.h
+/home/yuan/Dev/TaskDemos/demo_2/src/cmdcalc.h
 stdio.h
 -
 QApplication

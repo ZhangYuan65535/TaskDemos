@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yuan/Desktop/MyDemo/demo_2
+CMAKE_SOURCE_DIR = /home/yuan/Dev/TaskDemos/demo_2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yuan/Desktop/MyDemo/demo_2/build
+CMAKE_BINARY_DIR = /home/yuan/Dev/TaskDemos/demo_2/build
 
 # Utility rule file for Calculator_autogen.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/yuan/Desktop/MyDemo/demo_2/build
 include CMakeFiles/Calculator_autogen.dir/progress.make
 
 CMakeFiles/Calculator_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yuan/Desktop/MyDemo/demo_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target Calculator"
-	/usr/bin/cmake -E cmake_autogen /home/yuan/Desktop/MyDemo/demo_2/build/CMakeFiles/Calculator_autogen.dir/AutogenInfo.cmake ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yuan/Dev/TaskDemos/demo_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target Calculator"
+	/usr/bin/cmake -E cmake_autogen /home/yuan/Dev/TaskDemos/demo_2/build/CMakeFiles/Calculator_autogen.dir/AutogenInfo.cmake ""
 
 Calculator_autogen: CMakeFiles/Calculator_autogen
 Calculator_autogen: CMakeFiles/Calculator_autogen.dir/build.make
@@ -72,6 +72,6 @@ CMakeFiles/Calculator_autogen.dir/clean:
 .PHONY : CMakeFiles/Calculator_autogen.dir/clean
 
 CMakeFiles/Calculator_autogen.dir/depend:
-	cd /home/yuan/Desktop/MyDemo/demo_2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yuan/Desktop/MyDemo/demo_2 /home/yuan/Desktop/MyDemo/demo_2 /home/yuan/Desktop/MyDemo/demo_2/build /home/yuan/Desktop/MyDemo/demo_2/build /home/yuan/Desktop/MyDemo/demo_2/build/CMakeFiles/Calculator_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yuan/Dev/TaskDemos/demo_2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yuan/Dev/TaskDemos/demo_2 /home/yuan/Dev/TaskDemos/demo_2 /home/yuan/Dev/TaskDemos/demo_2/build /home/yuan/Dev/TaskDemos/demo_2/build /home/yuan/Dev/TaskDemos/demo_2/build/CMakeFiles/Calculator_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Calculator_autogen.dir/depend
 

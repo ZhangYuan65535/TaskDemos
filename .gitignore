@@ -1,53 +1,41 @@
+# Compiled Object files
 *.slo
 *.lo
 *.o
-*.a
-*.la
-*.lai
+
+# Compiled Dynamic libraries
 *.so
-*.so.*
-*.dll
 *.dylib
 
-# Qt-es
-object_script.*.Release
-object_script.*.Debug
-*_plugin_import.cpp
-/.qmake.cache
-/.qmake.stash
-*.pro.user
-*.pro.user.*
-*.qbs.user
-*.qbs.user.*
-*.moc
-moc_*.cpp
-moc_*.h
-qrc_*.cpp
-ui_*.h
-*.qmlc
-*.jsc
-Makefile*
-*build-*
-*.qm
-*.prl
+# Compiled Static libraries
+*.lai
+*.la
+*.a
 
-# Qt unit tests
-target_wrapper.*
-
-# QtCreator
+build*/
+*.pro.user*
+*.DS_Store
+*.core
 *.autosave
+*.user*
+cmake-build-debug/
 
-# QtCreator Qml
-*.qmlproject.user
-*.qmlproject.user.*
+# qm file is auto generate from .ts file
+*.qm
 
-# QtCreator CMake
-CMakeLists.txt.user*
+# vim tmp file
+*.swp
 
-# QtCreator 4.8< compilation database
-compile_commands.json
+*.vscode
+*.vim
 
-# QtCreator local machine specific files for imported projects
-*creator.user*
+# clion tmp file
+.idea/
+# clangd tmp file
+.cache/
 
-*_qmlcache.qrc
+.transifexrc
+lupdate.sh
+
+# ctest
+Testing/

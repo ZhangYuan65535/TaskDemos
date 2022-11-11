@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yuan/Desktop/MyDemo/demo_2
+CMAKE_SOURCE_DIR = /home/yuan/Dev/TaskDemos/demo_2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yuan/Desktop/MyDemo/demo_2/build
+CMAKE_BINARY_DIR = /home/yuan/Dev/TaskDemos/demo_2/build
 
 # Include any dependencies generated for this target.
 include GuiPlugin/CMakeFiles/Guicalc.dir/depend.make
@@ -59,74 +59,89 @@ include GuiPlugin/CMakeFiles/Guicalc.dir/flags.make
 
 GuiPlugin/CMakeFiles/Guicalc.dir/guicalc.cpp.o: GuiPlugin/CMakeFiles/Guicalc.dir/flags.make
 GuiPlugin/CMakeFiles/Guicalc.dir/guicalc.cpp.o: ../GuiPlugin/guicalc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yuan/Desktop/MyDemo/demo_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object GuiPlugin/CMakeFiles/Guicalc.dir/guicalc.cpp.o"
-	cd /home/yuan/Desktop/MyDemo/demo_2/build/GuiPlugin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Guicalc.dir/guicalc.cpp.o -c /home/yuan/Desktop/MyDemo/demo_2/GuiPlugin/guicalc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yuan/Dev/TaskDemos/demo_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object GuiPlugin/CMakeFiles/Guicalc.dir/guicalc.cpp.o"
+	cd /home/yuan/Dev/TaskDemos/demo_2/build/GuiPlugin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Guicalc.dir/guicalc.cpp.o -c /home/yuan/Dev/TaskDemos/demo_2/GuiPlugin/guicalc.cpp
 
 GuiPlugin/CMakeFiles/Guicalc.dir/guicalc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Guicalc.dir/guicalc.cpp.i"
-	cd /home/yuan/Desktop/MyDemo/demo_2/build/GuiPlugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yuan/Desktop/MyDemo/demo_2/GuiPlugin/guicalc.cpp > CMakeFiles/Guicalc.dir/guicalc.cpp.i
+	cd /home/yuan/Dev/TaskDemos/demo_2/build/GuiPlugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yuan/Dev/TaskDemos/demo_2/GuiPlugin/guicalc.cpp > CMakeFiles/Guicalc.dir/guicalc.cpp.i
 
 GuiPlugin/CMakeFiles/Guicalc.dir/guicalc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Guicalc.dir/guicalc.cpp.s"
-	cd /home/yuan/Desktop/MyDemo/demo_2/build/GuiPlugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yuan/Desktop/MyDemo/demo_2/GuiPlugin/guicalc.cpp -o CMakeFiles/Guicalc.dir/guicalc.cpp.s
+	cd /home/yuan/Dev/TaskDemos/demo_2/build/GuiPlugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yuan/Dev/TaskDemos/demo_2/GuiPlugin/guicalc.cpp -o CMakeFiles/Guicalc.dir/guicalc.cpp.s
 
 GuiPlugin/CMakeFiles/Guicalc.dir/mainwindow.cpp.o: GuiPlugin/CMakeFiles/Guicalc.dir/flags.make
 GuiPlugin/CMakeFiles/Guicalc.dir/mainwindow.cpp.o: ../GuiPlugin/mainwindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yuan/Desktop/MyDemo/demo_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object GuiPlugin/CMakeFiles/Guicalc.dir/mainwindow.cpp.o"
-	cd /home/yuan/Desktop/MyDemo/demo_2/build/GuiPlugin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Guicalc.dir/mainwindow.cpp.o -c /home/yuan/Desktop/MyDemo/demo_2/GuiPlugin/mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yuan/Dev/TaskDemos/demo_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object GuiPlugin/CMakeFiles/Guicalc.dir/mainwindow.cpp.o"
+	cd /home/yuan/Dev/TaskDemos/demo_2/build/GuiPlugin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Guicalc.dir/mainwindow.cpp.o -c /home/yuan/Dev/TaskDemos/demo_2/GuiPlugin/mainwindow.cpp
 
 GuiPlugin/CMakeFiles/Guicalc.dir/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Guicalc.dir/mainwindow.cpp.i"
-	cd /home/yuan/Desktop/MyDemo/demo_2/build/GuiPlugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yuan/Desktop/MyDemo/demo_2/GuiPlugin/mainwindow.cpp > CMakeFiles/Guicalc.dir/mainwindow.cpp.i
+	cd /home/yuan/Dev/TaskDemos/demo_2/build/GuiPlugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yuan/Dev/TaskDemos/demo_2/GuiPlugin/mainwindow.cpp > CMakeFiles/Guicalc.dir/mainwindow.cpp.i
 
 GuiPlugin/CMakeFiles/Guicalc.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Guicalc.dir/mainwindow.cpp.s"
-	cd /home/yuan/Desktop/MyDemo/demo_2/build/GuiPlugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yuan/Desktop/MyDemo/demo_2/GuiPlugin/mainwindow.cpp -o CMakeFiles/Guicalc.dir/mainwindow.cpp.s
+	cd /home/yuan/Dev/TaskDemos/demo_2/build/GuiPlugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yuan/Dev/TaskDemos/demo_2/GuiPlugin/mainwindow.cpp -o CMakeFiles/Guicalc.dir/mainwindow.cpp.s
 
 GuiPlugin/CMakeFiles/Guicalc.dir/roundbutton.cpp.o: GuiPlugin/CMakeFiles/Guicalc.dir/flags.make
 GuiPlugin/CMakeFiles/Guicalc.dir/roundbutton.cpp.o: ../GuiPlugin/roundbutton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yuan/Desktop/MyDemo/demo_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object GuiPlugin/CMakeFiles/Guicalc.dir/roundbutton.cpp.o"
-	cd /home/yuan/Desktop/MyDemo/demo_2/build/GuiPlugin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Guicalc.dir/roundbutton.cpp.o -c /home/yuan/Desktop/MyDemo/demo_2/GuiPlugin/roundbutton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yuan/Dev/TaskDemos/demo_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object GuiPlugin/CMakeFiles/Guicalc.dir/roundbutton.cpp.o"
+	cd /home/yuan/Dev/TaskDemos/demo_2/build/GuiPlugin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Guicalc.dir/roundbutton.cpp.o -c /home/yuan/Dev/TaskDemos/demo_2/GuiPlugin/roundbutton.cpp
 
 GuiPlugin/CMakeFiles/Guicalc.dir/roundbutton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Guicalc.dir/roundbutton.cpp.i"
-	cd /home/yuan/Desktop/MyDemo/demo_2/build/GuiPlugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yuan/Desktop/MyDemo/demo_2/GuiPlugin/roundbutton.cpp > CMakeFiles/Guicalc.dir/roundbutton.cpp.i
+	cd /home/yuan/Dev/TaskDemos/demo_2/build/GuiPlugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yuan/Dev/TaskDemos/demo_2/GuiPlugin/roundbutton.cpp > CMakeFiles/Guicalc.dir/roundbutton.cpp.i
 
 GuiPlugin/CMakeFiles/Guicalc.dir/roundbutton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Guicalc.dir/roundbutton.cpp.s"
-	cd /home/yuan/Desktop/MyDemo/demo_2/build/GuiPlugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yuan/Desktop/MyDemo/demo_2/GuiPlugin/roundbutton.cpp -o CMakeFiles/Guicalc.dir/roundbutton.cpp.s
+	cd /home/yuan/Dev/TaskDemos/demo_2/build/GuiPlugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yuan/Dev/TaskDemos/demo_2/GuiPlugin/roundbutton.cpp -o CMakeFiles/Guicalc.dir/roundbutton.cpp.s
+
+GuiPlugin/CMakeFiles/Guicalc.dir/Guicalc_autogen/mocs_compilation.cpp.o: GuiPlugin/CMakeFiles/Guicalc.dir/flags.make
+GuiPlugin/CMakeFiles/Guicalc.dir/Guicalc_autogen/mocs_compilation.cpp.o: GuiPlugin/Guicalc_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yuan/Dev/TaskDemos/demo_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object GuiPlugin/CMakeFiles/Guicalc.dir/Guicalc_autogen/mocs_compilation.cpp.o"
+	cd /home/yuan/Dev/TaskDemos/demo_2/build/GuiPlugin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Guicalc.dir/Guicalc_autogen/mocs_compilation.cpp.o -c /home/yuan/Dev/TaskDemos/demo_2/build/GuiPlugin/Guicalc_autogen/mocs_compilation.cpp
+
+GuiPlugin/CMakeFiles/Guicalc.dir/Guicalc_autogen/mocs_compilation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Guicalc.dir/Guicalc_autogen/mocs_compilation.cpp.i"
+	cd /home/yuan/Dev/TaskDemos/demo_2/build/GuiPlugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yuan/Dev/TaskDemos/demo_2/build/GuiPlugin/Guicalc_autogen/mocs_compilation.cpp > CMakeFiles/Guicalc.dir/Guicalc_autogen/mocs_compilation.cpp.i
+
+GuiPlugin/CMakeFiles/Guicalc.dir/Guicalc_autogen/mocs_compilation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Guicalc.dir/Guicalc_autogen/mocs_compilation.cpp.s"
+	cd /home/yuan/Dev/TaskDemos/demo_2/build/GuiPlugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yuan/Dev/TaskDemos/demo_2/build/GuiPlugin/Guicalc_autogen/mocs_compilation.cpp -o CMakeFiles/Guicalc.dir/Guicalc_autogen/mocs_compilation.cpp.s
 
 # Object files for target Guicalc
 Guicalc_OBJECTS = \
 "CMakeFiles/Guicalc.dir/guicalc.cpp.o" \
 "CMakeFiles/Guicalc.dir/mainwindow.cpp.o" \
-"CMakeFiles/Guicalc.dir/roundbutton.cpp.o"
+"CMakeFiles/Guicalc.dir/roundbutton.cpp.o" \
+"CMakeFiles/Guicalc.dir/Guicalc_autogen/mocs_compilation.cpp.o"
 
 # External object files for target Guicalc
 Guicalc_EXTERNAL_OBJECTS =
 
-GuiPlugin/libGuicalc.so: GuiPlugin/CMakeFiles/Guicalc.dir/guicalc.cpp.o
-GuiPlugin/libGuicalc.so: GuiPlugin/CMakeFiles/Guicalc.dir/mainwindow.cpp.o
-GuiPlugin/libGuicalc.so: GuiPlugin/CMakeFiles/Guicalc.dir/roundbutton.cpp.o
-GuiPlugin/libGuicalc.so: GuiPlugin/CMakeFiles/Guicalc.dir/build.make
-GuiPlugin/libGuicalc.so: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.11.3
-GuiPlugin/libGuicalc.so: /usr/lib/x86_64-linux-gnu/libQt5DBus.so.5.11.3
-GuiPlugin/libGuicalc.so: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.11.3
-GuiPlugin/libGuicalc.so: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.11.3
-GuiPlugin/libGuicalc.so: GuiPlugin/CMakeFiles/Guicalc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yuan/Desktop/MyDemo/demo_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared module libGuicalc.so"
-	cd /home/yuan/Desktop/MyDemo/demo_2/build/GuiPlugin && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Guicalc.dir/link.txt --verbose=$(VERBOSE)
+plugins/libGuicalc.so: GuiPlugin/CMakeFiles/Guicalc.dir/guicalc.cpp.o
+plugins/libGuicalc.so: GuiPlugin/CMakeFiles/Guicalc.dir/mainwindow.cpp.o
+plugins/libGuicalc.so: GuiPlugin/CMakeFiles/Guicalc.dir/roundbutton.cpp.o
+plugins/libGuicalc.so: GuiPlugin/CMakeFiles/Guicalc.dir/Guicalc_autogen/mocs_compilation.cpp.o
+plugins/libGuicalc.so: GuiPlugin/CMakeFiles/Guicalc.dir/build.make
+plugins/libGuicalc.so: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.11.3
+plugins/libGuicalc.so: /usr/lib/x86_64-linux-gnu/libQt5DBus.so.5.11.3
+plugins/libGuicalc.so: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.11.3
+plugins/libGuicalc.so: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.11.3
+plugins/libGuicalc.so: GuiPlugin/CMakeFiles/Guicalc.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yuan/Dev/TaskDemos/demo_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library ../plugins/libGuicalc.so"
+	cd /home/yuan/Dev/TaskDemos/demo_2/build/GuiPlugin && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Guicalc.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-GuiPlugin/CMakeFiles/Guicalc.dir/build: GuiPlugin/libGuicalc.so
+GuiPlugin/CMakeFiles/Guicalc.dir/build: plugins/libGuicalc.so
 
 .PHONY : GuiPlugin/CMakeFiles/Guicalc.dir/build
 
 GuiPlugin/CMakeFiles/Guicalc.dir/clean:
-	cd /home/yuan/Desktop/MyDemo/demo_2/build/GuiPlugin && $(CMAKE_COMMAND) -P CMakeFiles/Guicalc.dir/cmake_clean.cmake
+	cd /home/yuan/Dev/TaskDemos/demo_2/build/GuiPlugin && $(CMAKE_COMMAND) -P CMakeFiles/Guicalc.dir/cmake_clean.cmake
 .PHONY : GuiPlugin/CMakeFiles/Guicalc.dir/clean
 
 GuiPlugin/CMakeFiles/Guicalc.dir/depend:
-	cd /home/yuan/Desktop/MyDemo/demo_2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yuan/Desktop/MyDemo/demo_2 /home/yuan/Desktop/MyDemo/demo_2/GuiPlugin /home/yuan/Desktop/MyDemo/demo_2/build /home/yuan/Desktop/MyDemo/demo_2/build/GuiPlugin /home/yuan/Desktop/MyDemo/demo_2/build/GuiPlugin/CMakeFiles/Guicalc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yuan/Dev/TaskDemos/demo_2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yuan/Dev/TaskDemos/demo_2 /home/yuan/Dev/TaskDemos/demo_2/GuiPlugin /home/yuan/Dev/TaskDemos/demo_2/build /home/yuan/Dev/TaskDemos/demo_2/build/GuiPlugin /home/yuan/Dev/TaskDemos/demo_2/build/GuiPlugin/CMakeFiles/Guicalc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : GuiPlugin/CMakeFiles/Guicalc.dir/depend
 

@@ -4,9 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/yuan/Desktop/MyDemo/demo_2/GuiPlugin/guicalc.cpp" "/home/yuan/Desktop/MyDemo/demo_2/build/GuiPlugin/CMakeFiles/Guicalc.dir/guicalc.cpp.o"
-  "/home/yuan/Desktop/MyDemo/demo_2/GuiPlugin/mainwindow.cpp" "/home/yuan/Desktop/MyDemo/demo_2/build/GuiPlugin/CMakeFiles/Guicalc.dir/mainwindow.cpp.o"
-  "/home/yuan/Desktop/MyDemo/demo_2/GuiPlugin/roundbutton.cpp" "/home/yuan/Desktop/MyDemo/demo_2/build/GuiPlugin/CMakeFiles/Guicalc.dir/roundbutton.cpp.o"
+  "/home/yuan/Dev/TaskDemos/demo_2/build/GuiPlugin/Guicalc_autogen/mocs_compilation.cpp" "/home/yuan/Dev/TaskDemos/demo_2/build/GuiPlugin/CMakeFiles/Guicalc.dir/Guicalc_autogen/mocs_compilation.cpp.o"
+  "/home/yuan/Dev/TaskDemos/demo_2/GuiPlugin/guicalc.cpp" "/home/yuan/Dev/TaskDemos/demo_2/build/GuiPlugin/CMakeFiles/Guicalc.dir/guicalc.cpp.o"
+  "/home/yuan/Dev/TaskDemos/demo_2/GuiPlugin/mainwindow.cpp" "/home/yuan/Dev/TaskDemos/demo_2/build/GuiPlugin/CMakeFiles/Guicalc.dir/mainwindow.cpp.o"
+  "/home/yuan/Dev/TaskDemos/demo_2/GuiPlugin/roundbutton.cpp" "/home/yuan/Dev/TaskDemos/demo_2/build/GuiPlugin/CMakeFiles/Guicalc.dir/roundbutton.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -21,6 +22,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "GuiPlugin/Guicalc_autogen/include"
   "/usr/include/x86_64-linux-gnu/qt5/QtGui/5.11.3"
   "/usr/include/x86_64-linux-gnu/qt5/QtGui/5.11.3/QtGui"
   "/usr/include/x86_64-linux-gnu/qt5/QtCore/5.11.3"
