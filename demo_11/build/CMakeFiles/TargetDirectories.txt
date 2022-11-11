@@ -1,3 +1,0 @@
-/home/yuan/Dev/TaskDemos/demo_11/build/CMakeFiles/rebuild_cache.dir
-/home/yuan/Dev/TaskDemos/demo_11/build/CMakeFiles/UnitTest.dir
-/home/yuan/Dev/TaskDemos/demo_11/build/CMakeFiles/edit_cache.dir
