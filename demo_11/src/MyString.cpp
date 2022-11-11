@@ -1,5 +1,5 @@
-#include <QDebug>
 #include <iostream>
+#include <QDebug>
 
 #include "MyString.h"
 #include "kmp.h"
@@ -22,14 +22,25 @@ MyString::MyString(const char *str):
     this->insert(str, 0);
 }
 
-MyString::MyString(MyString &s):
+MyString::MyString(MyString &str):
     m_ptr(nullptr),
     m_size(0),
     m_capacity(0)
 {
-    _expendCapacity(s.m_size);
+    _expendCapacity(str.m_size);
     m_size = m_capacity;
-    strncpy(m_ptr, s.m_ptr, m_size);
+    strncpy(m_ptr, str.m_ptr, m_size);
+}
+
+MyString::MyString(MyString &str, MyString::size_t begin, MyString::size_t len):
+    m_ptr(nullptr),
+    m_size(0),
+    m_capacity(0)
+{
+    _expendCapacity(len);
+    m_size = len;
+    m_capacity = len;
+    strncpy(this->m_ptr, str.m_ptr + begin, len);
 }
 
 MyString::~MyString()
@@ -105,15 +116,30 @@ bool MyString::remove(int begin, int end)
     return false;
 }
 
+/**
+ * @brief MyString::find 模式匹配
+ * @param str 待匹配的子串
+ * @return 匹配成功返回起始下标，失败则返回 -1
+ */
 int MyString::find(const char *str)
 {
     return searchChildByKmp(this->m_ptr, str);
+}
+
+int MyString::find(const char *str, MyString::size_t begin)
+{
+    int res;
+    res = searchChildByKmp(this->m_ptr + begin, str);
+    if (res < 0)
+        return res;
+    return res + begin;
 }
 
 void MyString::showValue()
 {
     qWarning() << this->m_ptr;
 }
+
 
 MyString MyString::operator+(const char *str)
 {
@@ -128,10 +154,10 @@ MyString MyString::operator+(const MyString &str)
     return *this;
 }
 
-
-
-
-
-
-
-
+/**
+ * @brief MyString::operator char * 实现 MyString 到 char* 的转换
+ */
+MyString::operator char *() const
+{
+    return m_ptr;
+}

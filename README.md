@@ -53,6 +53,12 @@
 + QRunnable 结合线程池
 + 使用 QtConcurrent
 
+### Demo_11
+
+目标：练习单元测试
+
+详情：整体实现为一个自定义版 String 类，实现了 STL string 中的部分功能。
+
 ### Demo_total
 
 目标：将所有需要的功能聚合在一个项目中

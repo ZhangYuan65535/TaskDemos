@@ -5,10 +5,9 @@
 
 using namespace std;
 
+
 int main(int argc, char **argv)
 {
-    MyString s("ababa");
-
-    cout << s << endl;
-
+    MyString s("aaabaabc");
+    qWarning() << s;
 }
